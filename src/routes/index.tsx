@@ -10,17 +10,17 @@ import { services, site, whyUs } from "@/data/site";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Precise Engineering Services | Façade & IMP Shop Drawings" },
+      { title: "| Façade & IMP Shop Drawings" },
       {
         name: "description",
         content:
           "Professional shop drawing and detailing services for façade, glazing, IMP, single-skin panel and structural systems. 25+ years of industry experience.",
       },
-      { property: "og:title", content: "Precise Engineering Services — Façade & IMP Detailing" },
+      { property: "og:title", content: "| Façade & IMP Shop Drawings" },
       {
         property: "og:description",
         content:
-          "Construction-ready shop drawings for façade, glazing, IMP and structural systems. Based in Pune, India, supporting U.S. contractors and fabricators.",
+          "Professional shop drawing and detailing services for façade, glazing, IMP, single-skin panel and structural systems. 25+ years of industry experience.",
       },
     ],
   }),

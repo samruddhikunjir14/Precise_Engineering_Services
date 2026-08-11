@@ -78,20 +78,24 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Precise Engineering Services | Façade & IMP Shop Drawings" },
+      { title: "| Façade & IMP Shop Drawings" },
       {
         name: "description",
         content:
-          "Façade, glazing, IMP and structural shop drawing and detailing support for contractors and fabricators. 25+ years of experience. Pune, India.",
+          "Professional shop drawing and detailing services for façade, glazing, IMP, single-skin panel and structural systems. 25+ years of industry experience.",
       },
       { name: "author", content: "Precise Engineering Services" },
-      { property: "og:title", content: "Precise Engineering Services" },
+      { property: "og:title", content: "| Façade & IMP Shop Drawings" },
       {
         property: "og:description",
-        content: "Shop drawing and detailing support for façade, glazing, IMP and structural projects.",
+        content: "Professional shop drawing and detailing services for façade, glazing, IMP, single-skin panel and structural systems. 25+ years of industry experience.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "| Façade & IMP Shop Drawings" },
+      { name: "twitter:description", content: "Professional shop drawing and detailing services for façade, glazing, IMP, single-skin panel and structural systems. 25+ years of industry experience." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/43b3f07bc5426fac4c9bfd10aee85a79/id-preview-270b6c31--16ec5a4c-1c1f-4a2e-b3da-ea929f1933d0.lovable.app-1786457303437.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/43b3f07bc5426fac4c9bfd10aee85a79/id-preview-270b6c31--16ec5a4c-1c1f-4a2e-b3da-ea929f1933d0.lovable.app-1786457303437.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
