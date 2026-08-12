@@ -15,7 +15,7 @@ export function Logo({ inverted = false }: { inverted?: boolean }) {
   return (
     <Link to="/" className="group flex items-center gap-3">
       <span className="flex h-9 w-9 shrink-0 items-center justify-center bg-accent">
-        <span className="font-display text-sm font-bold tracking-tight text-accent-foreground">PE</span>
+        <span className="font-display text-sm font-bold tracking-tight text-accent-foreground">PES</span>
       </span>
       <span className="leading-none">
         <span

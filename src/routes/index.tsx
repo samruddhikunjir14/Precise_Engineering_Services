@@ -52,7 +52,7 @@ function Home() {
         <div className="relative mx-auto max-w-6xl px-5 py-24 md:py-32">
           <p className="font-mono text-[0.7rem] uppercase tracking-[0.28em] text-accent">{site.tagline}</p>
           <h1 className="mt-6 max-w-3xl font-display text-4xl font-extrabold leading-[1.03] md:text-6xl">
-            Construction-ready shop drawings for building envelope teams.
+            PRECISE ENGINEERING SERVICES.
           </h1>
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-primary-foreground/75 md:text-lg">
             Precise Engineering Services provides professional detailing support for façade, glazing, insulated
